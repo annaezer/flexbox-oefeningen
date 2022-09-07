@@ -4,7 +4,7 @@
 
 /* Schrijf hier  jouw CSS! */
 
-/*Opdracht 1*/
+/*Opdracht 2.1*/
 
 .one {
     display: flex;
@@ -13,7 +13,7 @@
     align-items: flex-start;
 }
 
-/*Opdracht 2*/
+/*Opdracht 2.2*/
 
 .two {
     display: flex;
@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 
-/*Opdracht 3*/
+/*Opdracht 2.3*/
 
 .three {
     display: flex;
@@ -38,7 +38,7 @@
     flex-basis: 250px;
 }
 
-/*Opdracht 4*/
+/*Opdracht 2.4*/
 
 .unit {
     display: flex;
@@ -54,5 +54,44 @@
     align-items: center;
 }
 
-/*Opdracht 5*/
+/*Opdracht 2.5*/
 
+.five {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    /*!*justify-content: center;*!*/
+    /*align-items: center;*/
+    flex-wrap: wrap;
+
+}
+article {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+
+
+/*.first-row {*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+/*    !*justify-content: center;*!*/
+/*    flex-basis: 300px;*/
+/*    flex-grow: 1;*/
+/*}*/
+
+/*.second row {*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+/*    !*justify-content: center;*!*/
+/*    flex-basis: 300px;*/
+/*    flex-grow: 1;*/
+/*}*/
+
+/*.third-row {*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+/*    !*justify-content: center;*!*/
+/*    flex-basis: 300px;*/
+/*    flex-grow: 1;*/
+/*}*/
