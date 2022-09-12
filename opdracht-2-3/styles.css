@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     /*box-sizing: border-box;*/
+    /*border-box juist toegepast of nog ergens eerst width en heigth en dan 100%?*/
 }
 
 body {
@@ -11,6 +12,34 @@ body {
     font-family: 'Montserrat', Arial, sans-serif;
     text-align: center;
 }
+
+nav {
+    background-color:#030027;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 250px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    /*flex-basis: IS DEZE NODIG?;*/
+    list-style-type: none;
+    color: white;
+}
+
+li {
+    margin: 30px 40px 30px 40px;
+}
+
+.left {
+    text-transform: uppercase;
+}
+
+/*ul+li {*/
+/*    text-transform: uppercase;*/
+/*} WERKT NIET WAAROM?*/
 
 .headings {
     color: #030027;
@@ -41,5 +70,3 @@ section {
     padding: 15px;
     margin: 15px;
 }
-
-
